@@ -53,4 +53,13 @@ set recolor-darkcolor           "#f8f8f2" # Foreground
 # Startup options
 #
 set adjust-open width
-set recolor true
+map r reload
+map p print
+map i recolor
+map J zoom out
+map K zoom in
+map R rotate
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
